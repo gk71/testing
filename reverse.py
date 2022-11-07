@@ -6,7 +6,7 @@ import json
 
 # store the URL in url as
 # parameter for urlopen
-url = "http://127.0.0.1:5000"
+url = "http://192.168.49.2:30008/"
 
 # store the response of URL
 response = urlopen(url)
