@@ -6,6 +6,7 @@ import json
 
 # store the URL in url as
 # parameter for urlopen
+# the url here is the ip of minikube and the node port of minikube defined in srvs.yaml
 url = "http://192.168.49.2:30008/"
 
 # store the response of URL
@@ -27,6 +28,5 @@ for i in data_json:
       value = data_json[i]
 
 
-#print(value)
 print(value[::-1])
 
